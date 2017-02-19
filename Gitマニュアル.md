@@ -6,6 +6,10 @@
 
 windows用のgit本体です
 
+1.[https://git-for-windows.github.io/](https://git-for-windows.github.io/)からインストーラをダウンロード
+![gitForWindows](./images/gitForWindows1.png)
+2. 
+
 - [https://git-for-windows.github.io/](https://git-for-windows.github.io/)
 からインストーラをダウンロードして実行
 - Select Component画面ですべてのチェックを外して次へ
