@@ -54,10 +54,12 @@ git config --global gui.encoding utf-8
 ![tortoiseGit6](./images/tortoiseGit6.png)  
 6. インストールが行われます  
 7. 「Run first start wizard」のチェックを外してFinisボタンを押下  
-![tortoiseGit7](./images/tortoiseGit7.png)  
-
-- エクスプローラー上で右クリックメニューの「TortoiseGit-Settings」を選択
-- 設定画面のGeneral-Languageで「日本語」を選択してOKボタンを押す
+![tortoiseGit7](./images/tortoiseGit7.png)  
+8. 日本語LanguagePackのインストーラを実行
+9. エクスプローラー上で右クリックメニューの「TortoiseGit-Settings」を選択
+![tortoiseGit8](./images/tortoiseGit8.png)  
+10. 設定画面のGeneral-Languageで「日本語」を選択してOKボタンを押す
+![tortoiseGit9](./images/tortoiseGit9.png)  
 
 ## 開発開始時に行う操作
 
