@@ -4,22 +4,30 @@
 ## クライアント環境構築
 ### git for windowsをインストール
 
-windows用のgit本体です
-
-1.[https://git-for-windows.github.io/](https://git-for-windows.github.io/)からインストーラをダウンロード
-![gitForWindows](./images/gitForWindows1.png)
-2. 
-
-- [https://git-for-windows.github.io/](https://git-for-windows.github.io/)
-からインストーラをダウンロードして実行
-- Select Component画面ですべてのチェックを外して次へ
-- Adjusting your Path Enviroment画面で、初期値の真ん中の選択肢「Use Git from the Windows Command Prompt」のまま次へ
-- Configuring the line ending conversions画面で、一番下の選択肢「Checkout as-is, commit as-is」を選び次へ
-- Configuring the terminal emulator to use with Git Bash画面で、初期値の上の選択肢「Use MinTTY (the default terminal of MSYS2)」のまま次へ
-- Configuring extra options画面で、初期値の「Enable file system caching」を選択、「Enable Git Credential Manager」を選択のまま次へ
-- インストールが行われます
-- コマンドプロンプトで下記コマンドを実行してgitの初期設定を行う
-
+1. [https://git-for-windows.github.io/](https://git-for-windows.github.io/)からインストーラをダウンロードして実行  
+![gitForWindows1](./images/gitForWindows1.png)  
+2. Nextボタン押下  
+![gitForWindows2](./images/gitForWindows2.png)  
+3. Nextボタン押下  
+![gitForWindows3](./images/gitForWindows3.png)  
+4. すべてのチェックを外してNextボタン押下  
+![gitForWindows4](./images/gitForWindows4.png)  
+5. Nextボタン押下  
+![gitForWindows5](./images/gitForWindows5.png)  
+6. Nextボタン押下  
+![gitForWindows6](./images/gitForWindows6.png)  
+7. 「Checkout as-is, commit as-is」を選びNextボタン押下  
+![gitForWindows7](./images/gitForWindows7.png)  
+8. Nextボタン押下  
+![gitForWindows8](./images/gitForWindows8.png)  
+9. Nextボタン押下  
+![gitForWindows9](./images/gitForWindows9.png)  
+10. Nextボタン押下  
+![gitForWindows10](./images/gitForWindows10.png)  
+11. インストールが行われます  
+12. Finishボタン押下  
+![gitForWindows11](./images/gitForWindows11.png)  
+12. コマンドプロンプトで下記コマンドを実行してgitの初期設定を行う
 ```
 git config --global user.email %UserName%@xxx.jp
 git config --global user.name %UserName%
@@ -33,16 +41,25 @@ git config --global gui.encoding utf-8
 
 エクスプローラーにgit操作メニューを統合してgitを直感的で操作できるようになります
 
-- [https://tortoisegit.org/download/](https://tortoisegit.org/download/)からTortoiseGitと、日本語LanguagePackのインストーラをダウンロード  
-64bitの環境の場合は64bit用のインストーラを選択してください
-- TortoiseGitのインストーラを実行
-- Choose SSH Client画面で、「TortoisePLink, coming form Putty, integrates with windows better.」を選択して次へ
-- CustomSetup画面で、初期値のまま次へ
-- インストールが行われます
-- 日本語LanguagePackインストーラを実行  
-次へを押してインストールを完了する
-- エクスプローラー上で右クリックメニューの「TortoiseGit-Settings」を選択
-- 設定画面のGeneral-Languageで「日本語」を選択してOKボタンを押す
+1. [https://tortoisegit.org/download/](https://tortoisegit.org/download/)からTortoiseGitと、日本語LanguagePackのインストーラをダウンロード  
+64bitの環境の場合は64bit用のインストーラを選択してください  
+![tortoiseGit1](./images/tortoiseGit1.png)  
+2. TortoiseGitのインストーラを実行  
+![tortoiseGit3](./images/tortoiseGit3.png)  
+3. Nextボタン押下  
+![tortoiseGit4](./images/tortoiseGit4.png)  
+4. Nextボタン押下  
+![tortoiseGit5](./images/tortoiseGit5.png)  
+5. Installボタン押下  
+![tortoiseGit6](./images/tortoiseGit6.png)  
+6. インストールが行われます  
+7. 「Run first start wizard」のチェックを外してFinisボタンを押下  
+![tortoiseGit7](./images/tortoiseGit7.png)  
+8. 日本語LanguagePackのインストーラを実行
+9. エクスプローラー上で右クリックメニューの「TortoiseGit-Settings」を選択
+![tortoiseGit8](./images/tortoiseGit8.png)  
+10. 設定画面のGeneral-Languageで「日本語」を選択してOKボタンを押す
+![tortoiseGit9](./images/tortoiseGit9.png)  
 
 ## 開発開始時に行う操作
 
